@@ -24,7 +24,7 @@ Clone the Repository:
   
 ```cd dll-injection-utility```
 
-Compile the Code (If you are modifying, otherwise just use the executable):
+Compile the Code (If you are modifying, otherwise run the executable):
 
 ```gcc -o dll-injection.exe dll-injection.c```
 
@@ -34,7 +34,7 @@ Run the Injector:
 
 Replace <path-to-dll> with the full path to your DLL.
 
-Replace <process-name> with the name of the target process, e.g., notepad.exe.
+Replace <process-name> with the name of the target process, e.g. notepad.exe.
 
 # Expected Behavior:
 Upon successful injection, the DLL will execute its defined behavior within the target process.
