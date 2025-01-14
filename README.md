@@ -32,7 +32,7 @@ Run the Injector:
 
 ```./dll-injection.exe <path-to-dll> <process-name>```
 
-Replace <path-to-dll> with the full path to your DLL.
+Replace <path-to-dll> with the path to your DLL.
 
 Replace <process-name> with the name of the target process, e.g. notepad.exe.
 
