@@ -22,7 +22,7 @@ Clone the Repository:
 
 ```git clone https://github.com/craig-rylance/dll-injection-utility.git```  
   
-```cd dll-injection-utility```
+```cd dll-injector```
 
 Compile the Code (If you are modifying, otherwise run the executable):
 
