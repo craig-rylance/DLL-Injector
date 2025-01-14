@@ -20,7 +20,7 @@ GCC compiler (MinGW recommended for Windows)
 
 Clone the Repository:
 
-```git clone https://github.com/craig-rylance/dll-injection-utility.git```  
+```git clone https://github.com/craig-rylance/dll-injector.git```  
   
 ```cd dll-injector```
 
