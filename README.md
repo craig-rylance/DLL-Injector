@@ -37,7 +37,7 @@ Replace <path-to-dll> with the path to your DLL.
 Replace <process-name> with the name of the target process, e.g. notepad.exe.
 
 # Expected Behavior:
-Upon successful injection, the DLL will execute its defined behavior within the target process.
+Upon successful injection, the DLL will execute its defined behavior within the memory space of the target process.
 
 # Files
 
