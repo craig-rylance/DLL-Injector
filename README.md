@@ -1,13 +1,13 @@
 # Basic DLL Injector
 A basic command line based DLL injector written in C. This is the most basic form of DLL injection, utilizing the LoadLibraryA function in kernel32.dll.
 
-## Features
+### Features
 
 Injects a specified DLL into a target process by name.
 
 Demonstrates core concepts of DLL injection for educational purposes.
 
-## Prerequisites
+### Prerequisites
 
 Windows
 
@@ -17,32 +17,33 @@ GCC compiler (MinGW recommended for Windows)
 
 Clone the Repository:
 
-```git clone https://github.com/craig-rylance/dll-injector.git```  
+  ```git clone https://github.com/craig-rylance/dll-injector.git```  
   
-```cd dll-injector```
+  ```cd dll-injector```
 
 Compile the Code (If you are modifying, otherwise run the executable):
 
-```gcc -o dll-injection.exe dll-injection.c```
+  ```gcc -o inject-dll.exe inject-dll.c```
 
 Run the Injector:
 
-```./dll-injection.exe <path-to-dll> <process-name>```
+  ```./inject-dll.exe <path-to-dll> <process-name>```
 
 Replace <path-to-dll> with the path to your DLL.
 
 Replace <process-name> with the name of the target process, e.g. notepad.exe.
 
-## Expected Behavior:
-Upon successful injection, the DLL will execute its defined behavior within the memory space of the target process.
+### Expected Behavior:
 
-## Files
+Upon successful injection, the DLL will automatically execute its defined behavior within the memory space of the target process.
 
-dll-injection.c: C program for injecting a DLL into a target process.
+### Files
 
-dll-injection.exe: Precompiled executable for performing DLL injection.
+inject-dll.c: C program for injecting a DLL into a target process.
 
-## License
+inject-dll.exe: Precompiled executable for performing DLL injection.
+
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
