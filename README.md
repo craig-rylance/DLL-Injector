@@ -1,22 +1,19 @@
-# dll-injector
+# Basic DLL Injector
 A basic command line based DLL injector written in C. This is the most basic form of DLL injection, utilizing the LoadLibraryA function in kernel32.dll.
 
-
-This project provides a standalone utility for performing DLL injection into Windows processes for legal and ethical purposes. The provided code demonstrates the mechanics of DLL injection and serves as an educational tool for developers and security researchers.
-
-# Features
+## Features
 
 Injects a specified DLL into a target process by name.
 
 Demonstrates core concepts of DLL injection for educational purposes.
 
-# Prerequisites
+## Prerequisites
 
-Windows (or with Windows libraries installed on Linux)
+Windows
 
 GCC compiler (MinGW recommended for Windows)
 
-# Usage
+## Usage
 
 Clone the Repository:
 
@@ -36,16 +33,16 @@ Replace <path-to-dll> with the path to your DLL.
 
 Replace <process-name> with the name of the target process, e.g. notepad.exe.
 
-# Expected Behavior:
+## Expected Behavior:
 Upon successful injection, the DLL will execute its defined behavior within the memory space of the target process.
 
-# Files
+## Files
 
 dll-injection.c: C program for injecting a DLL into a target process.
 
 dll-injection.exe: Precompiled executable for performing DLL injection.
 
-# License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
