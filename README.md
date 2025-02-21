@@ -9,9 +9,9 @@ Demonstrates core concepts of DLL injection for educational purposes.
 
 ### Prerequisites
 
-Windows
+  - Windows
 
-GCC compiler (MinGW recommended for Windows)
+  - GCC compiler (MinGW recommended for Windows)
 
 ## Usage
 
