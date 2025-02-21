@@ -1,5 +1,5 @@
 # dll-injector
-A basic command line based DLL injector written in C.
+A basic command line based DLL injector written in C. This is the most basic form of DLL injection, utilizing the LoadLibraryA function in kernel32.dll.
 
 
 This project provides a standalone utility for performing DLL injection into Windows processes for legal and ethical purposes. The provided code demonstrates the mechanics of DLL injection and serves as an educational tool for developers and security researchers.
